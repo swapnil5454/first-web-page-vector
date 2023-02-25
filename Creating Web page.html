@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                outline: 0px;
+            }
+            .nav{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 15vh;
+                background-color: rgb(238, 166, 10);
+                align-items: center;
+            }
+            .left img{
+                width: 180px;
+                height: 70px;
+                margin: 10px;
+            }
+            .right{
+                display: flex;
+                text-decoration: none;
+            }
+            .right div{
+                padding-right: 40px;
+                text-decoration: none;
+            }
+            .right div a{
+                color: rgb(4, 19, 85);
+                text-decoration: none;
+            }
+            .icon{
+                position: relative;
+                width: 5px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid palegoldenrod;
+                padding: 5px;
+            }
+            .fa-circle-dot{
+                position: absolute;
+                color: seagreen;
+                top: -4px;
+                right: 0;
+            }
+            .ban{
+                width: 100%; 
+                height: 85vh;
+                background: linear-gradient(rgba(150,160,200,0.7),rgba(150,200,160,0.7),rgba(120,150,180,0.7)),url("https://images.unsplash.com/photo-1590579491624-f98f36d4c763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8dW5pdmVyc2l0eSUyMGNhbXB1c3x8MHx8fHwxNjE5OTQzNzk5&ixlib=rb-1.2.1&q=80&w=1080");
+                background-size: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .cont{
+                display: flex;
+                flex-direction: column;
+                height: 100px;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .cont h1{
+                color: darkcyan;
+                font-size: 30px;
+                text-align: center; 
+            }
+            .cont p{
+                color: chocolate;
+                font-size: 14px;
+                text-align: center;
+            }
+            .cont input[type="submit"]{
+                color: olive;
+                background: transparent;
+                padding: 5px 10px;
+                border: 3px solid coral;
+                border-radius: 10px;
+                text-align: center;
+                text-decoration: none;
+            }
+            .ftr{
+                background-color: cornsilk;
+                width: 100%;
+            }
+            .ftr div{
+                text-align: center;
+                color: crimson ;
+                font-size: 11px;
+            }
+        </style>
+        <body>
+            <nav class="nav">
+                <div class="left"><img src="https://www.vectorindia.org/assets/images/resources/logo.png" alt="logo"/></div>
+                <div class="right">
+                <div><a href="#"><i class="fa-solid fa-house"></i>Home</a></div>
+                <div><a href="#"><i class="fa-regular fa-circle-info"></i>About</a></div>
+                <div><a href="#"><i class="fa-solid fa-phone"></i>Contact</a></div>
+                <div><a href="#"><i class="fa-solid fa-user"></i>Login</a></div> 
+                </div>
+            </nav>
+            <div class="ban">
+                <form action="https://www.vectorindia.org/registration">
+                <div class="cont">
+                    <h1>Leading training Inst.</h1>
+                    <p>To learn fullstck come and join with us</p>
+                    <input type="submit" value="apply now">
+                </form>
+                </div>
+            </div>
+            <footer class="ftr">
+                <div>@copyrights reseved to xyz.com</div>
+            </footer>
+        </body>
+    </head>
+</html>
